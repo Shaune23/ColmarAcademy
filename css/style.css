@@ -13,6 +13,11 @@ html, body{
     overflow-x: hidden;
 
 }
+
+body{
+    font-family:"Roboto",sans-serif;
+}
+
 /* nav section */
 nav{
     height: 64px;
@@ -26,7 +31,7 @@ nav{
 
 }
 
-nav .logoAndText {
+nav .logo-text {
     display: flex;
     align-items: center;
     height: 32px;
@@ -65,7 +70,7 @@ nav li{
 }
 
 
-.bannertext {
+.banner-text {
     align-self: center;
     padding-left: 24px;
     display: flex;
@@ -76,7 +81,7 @@ nav li{
     
 }
 
-.bannertext h1 {
+.banner-text h1 {
     text-align: center;
     padding: 24px;
     font-size: 32px;
@@ -84,12 +89,12 @@ nav li{
 
 }
 
-.bannertext p {
+.banner-text p {
     padding: 24px;
 
 }
 
-.bannertext button {
+.banner-text button {
     background-color: darkslategrey;
     color: white;
     justify-content: center;
@@ -102,13 +107,13 @@ nav li{
 /* practice section */
 
 /*practice left half */
-.keepPracticing{
+.keep-practicing{
     display: flex;
     padding: 32px;
     padding-left: 24px;
 }
 
-.leftHalf{
+.left-half{
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -117,24 +122,24 @@ nav li{
     
 }
 
-.leftHalf img{
+.left-half img{
     width: 100%;
     
 }
 
-.practiceText h2{
+.practice-text h2{
     padding-top: 32px;
     padding-bottom: 24px;
 }
 
-.practiceText #description{
+.practice-text #description{
     padding: 24px 0;
     
 }
 
 /* practice section right half */
 
-.righthalf{
+.right-half{
     width: 40%;
     display:flex ;
     flex-direction: column;
@@ -186,7 +191,7 @@ nav li{
 
 /* Start learning section */
 
-.startlearning{
+.start-learning{
     background-color: lightgray;
     margin-bottom: 32px;
     padding-bottom: 32px;
@@ -195,7 +200,7 @@ nav li{
     
 }
 
-.startlearning h2 {
+.start-learning h2 {
     padding: 32px 0 0 0 ;
     text-align: center;
 }
@@ -252,7 +257,7 @@ nav li{
 
 /* Thesis section */
 
-.ThesisExhibit{
+.thesis-exhibit{
     border-bottom: solid lightgray 1px;
     padding-bottom: 32px;
     /* height: 650px; */
@@ -260,7 +265,7 @@ nav li{
 
 }
 
-.ThesisExhibit h2 {
+.thesis-exhibit h2 {
 
     text-align: center;
     padding: 32px 0;
@@ -274,25 +279,25 @@ nav li{
     /* height: 400px; */
 }
 
-.leftThesis {
+.left-thesis {
     width: 60%;
     text-align: left;
     
 
 }
 
-.leftThesis video{
+.left-thesis video{
     width: 100%;
     margin-bottom: 24px;
 }
 
-.leftThesis h3 {
+.left-thesis h3 {
     margin-bottom: 8px;
 
 
 }
 
-.rightThesis {
+.right-thesis {
     width: 40%;
 }
 
@@ -360,7 +365,7 @@ footer{
         
     }
     
-    nav .logoAndText, .large{
+    nav .logo-text, .large{
         display: none;
         flex: 0;
     }
@@ -384,25 +389,25 @@ footer{
         padding: 0;
     }
 
-    .bannertext{
+    .banner-text{
         padding: 32px 16px;
         
     }
 
-    .bannertext h1{
+    .banner-text h1{
         padding: 0;
         padding-left: 22px;
         margin: 0;
         text-align: left;
     }
 
-    .bannertext p{
+    .banner-text p{
 
         font-size: 20px;
 
     }
 
-    .bannertext button {
+    .banner-text button {
         
         background-color: gray;
         border: none;
@@ -413,16 +418,16 @@ footer{
 
     /* mobile practice section */
 
-    .keepPracticing{
+    .keep-practicing{
         padding: 16px;
         margin: 0;
         
     }
-    .leftHalf{
+    .left-half{
         display: none;
     }
 
-    .righthalf{
+    .right-half{
         width: 100%;
         padding: 0;
         margin: 0;    
@@ -476,13 +481,13 @@ footer{
 
 /* start learning section */
 
-.startlearning{
+.start-learning{
     background-color: white;
     padding: 0;
     margin: 32px 16px;
 }
 
-.startlearning h2{
+.start-learning h2{
     font-size: 36px;
     padding-bottom: 16px;
 }
@@ -530,12 +535,12 @@ footer{
 
 /* Thesis exhibit  */
 
-.ThesisExhibit{
+.thesis-exhibit{
     border: none;
     padding-bottom: 24px;
 }
 
-.ThesisExhibit h2{
+.thesis-exhibit h2{
     font-size: 32px;
     padding-top: 32px;
     padding-bottom: 16px;
@@ -546,29 +551,29 @@ footer{
    margin: 0;
 }
 
-.leftThesis{
+.left-thesis{
     width: 100%;
     margin: 0;
     padding: 0;
 }
 
-.leftThesis video{
+.left-thesis video{
     padding: 0;
     height: 100%;
     margin: 0;
 
 }
 
-.leftThesis h3{
+.left-thesis h3{
     display: none;
 
 }
 
-.leftThesis p{
+.left-thesis p{
     display: none;
 }
 
-.rightThesis{
+.right-thesis{
     display: none;
 }
 
@@ -579,7 +584,7 @@ footer{
     align-items: flex-start;
 }
 
-footer .Terms {
+footer .terms {
     display: none;
 }
 
