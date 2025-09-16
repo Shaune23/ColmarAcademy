@@ -352,7 +352,7 @@ footer{
 
 /* Media queries  */
 
-@media screen and (max-width:480px){
+@media screen and (max-width:767px){
 /* mobile nav */
     nav {
         width: 100%;
@@ -366,14 +366,12 @@ footer{
     }
 
     nav ul {
-        padding 0;
+        padding: 0;
         justify-content: space-between;
         flex-direction: none;
     }
 
-    .mobile {
-        
-    }
+    
 /* mobile banner */
 
     .banner{
@@ -445,7 +443,7 @@ footer{
 
     .right-boxes img{
         width: 100%;
-        height:50%;
+        height:390px;
         padding-top: 0;
     }
 
@@ -516,7 +514,7 @@ footer{
 }
 
 .box h3{
-    margin 0;
+    margin:0;
     padding: 0;
     text-align: center;
     font-size: 28px;
@@ -585,4 +583,13 @@ footer .Terms {
     display: none;
 }
 
+}
+
+/* desktop media queries */
+
+@media  screen and (min-width:768px) {
+    nav .mobile{
+        display: none;
+    }
+    
 }
