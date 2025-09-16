@@ -1,0 +1,588 @@
+/* universal selectors */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: auto;
+    max-width: 100vw;
+    overflow-x: hidden;
+
+}
+/* nav section */
+nav{
+    height: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+
+}
+
+nav .logoAndText {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    padding-left: 24px;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    
+}
+
+nav li{
+    justify-content: space-between;
+    padding: 24px;
+    
+}
+
+
+
+/*Banner section  */
+.banner{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   background-color: lightgray;
+   margin-top: 70px;
+}
+
+.banner img{
+    width: 60%;
+    padding: 32px 24px;
+    
+}
+
+
+.bannertext {
+    align-self: center;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.bannertext h1 {
+    text-align: center;
+    padding: 24px;
+    font-size: 32px;
+    text-wrap: wrap;
+
+}
+
+.bannertext p {
+    padding: 24px;
+
+}
+
+.bannertext button {
+    background-color: darkslategrey;
+    color: white;
+    justify-content: center;
+    height: 32px;
+    width:60% ;
+    
+    
+}
+
+/* practice section */
+
+/*practice left half */
+.keepPracticing{
+    display: flex;
+    padding: 32px;
+    padding-left: 24px;
+}
+
+.leftHalf{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 60%;
+      
+    
+}
+
+.leftHalf img{
+    width: 100%;
+    
+}
+
+.practiceText h2{
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+.practiceText #description{
+    padding: 24px 0;
+    
+}
+
+/* practice section right half */
+
+.righthalf{
+    width: 40%;
+    display:flex ;
+    flex-direction: column;
+    padding: 0;
+    margin-left: 2px;
+    
+    
+    
+
+}
+/* right half images and courses */
+
+.right-boxes{
+    display: flex;
+    border: 1px solid lightgray;
+    margin-bottom: 2px;
+    padding: 16px ;
+    
+  
+
+}
+
+.right-boxes img{
+    width: 35%;
+    height: auto;
+}
+
+.right-box-text{
+    width: 65%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-left: 10px;
+    
+}
+
+.right-boxes p{
+    padding: 8px 0;
+}
+
+.right-boxes a{
+    text-decoration: none;
+    color: rgb(40, 177, 222);
+}
+
+#guest-lecture.right-boxes{
+    background-color: lightgray;
+}
+
+/* Start learning section */
+
+.startlearning{
+    background-color: lightgray;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    /* height: 500px; */
+    
+    
+}
+
+.startlearning h2 {
+    padding: 32px 0 0 0 ;
+    text-align: center;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    margin: 32px 72px;
+
+    
+
+}
+
+.box {
+    flex: 1 1 30%;
+    min-width: 200px;
+    min-height: 250px;
+    padding: px;
+    background: white;
+  
+    overflow-wrap: break-word;
+} 
+
+.box img{
+    height: auto;
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+}
+
+.box h3 {
+    margin-left: 16px;
+    padding: 16px 0;
+    
+
+}
+
+
+
+.box #heading {
+   padding:8px 0 !important ;
+    
+}
+
+.box p{
+    margin-bottom: 24px;
+    margin-left: 16px;
+    color: gray;
+    
+    
+}
+
+/* Thesis section */
+
+.ThesisExhibit{
+    border-bottom: solid lightgray 1px;
+    padding-bottom: 32px;
+    /* height: 650px; */
+    
+
+}
+
+.ThesisExhibit h2 {
+
+    text-align: center;
+    padding: 32px 0;
+
+}
+
+.halves{
+    display: flex;
+    margin: 32px 0px 32px 24px ;
+    gap: 24px;
+    /* height: 400px; */
+}
+
+.leftThesis {
+    width: 60%;
+    text-align: left;
+    
+
+}
+
+.leftThesis video{
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.leftThesis h3 {
+    margin-bottom: 8px;
+
+
+}
+
+.rightThesis {
+    width: 40%;
+}
+
+.fisma{
+    display: flex;
+    background-color: lightgray;
+    padding: 16px;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.fisma img{
+    width: 35%;
+}
+
+.fisma-text h3{
+    width: 65%;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.fisma-text p {
+    color: gray;
+}
+
+.now-then{
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 16px;
+}
+
+.now-then img{
+    width: 35%;
+
+}
+
+.now-then-text h3 {
+    width: 65%;
+    margin: 0;
+    padding: 0;
+}
+
+.now-then-text p{
+    color: gray;
+}
+
+footer{
+    padding: 24px 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Media queries  */
+
+@media screen and (max-width:480px){
+/* mobile nav */
+    nav {
+        width: 100%;
+        display: inline;
+        
+    }
+    
+    nav .logoAndText, .large{
+        display: none;
+        flex: 0;
+    }
+
+    nav ul {
+        padding 0;
+        justify-content: space-between;
+        flex-direction: none;
+    }
+
+    .mobile {
+        
+    }
+/* mobile banner */
+
+    .banner{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .banner img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .bannertext{
+        padding: 32px 16px;
+        
+    }
+
+    .bannertext h1{
+        padding: 0;
+        padding-left: 22px;
+        margin: 0;
+        text-align: left;
+    }
+
+    .bannertext p{
+
+        font-size: 20px;
+
+    }
+
+    .bannertext button {
+        
+        background-color: gray;
+        border: none;
+        width: 90%;
+        margin: 0;
+        
+    }
+
+    /* mobile practice section */
+
+    .keepPracticing{
+        padding: 16px;
+        margin: 0;
+        
+    }
+    .leftHalf{
+        display: none;
+    }
+
+    .righthalf{
+        width: 100%;
+        padding: 0;
+        margin: 0;    
+    }
+
+    .right-boxes{
+        flex-direction: column;
+        /* padding-bottom: 64px; */
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 35%;
+        border: none;
+        margin: 0;
+        
+        
+       
+    }
+
+    .right-boxes img{
+        width: 100%;
+        height:50%;
+        padding-top: 0;
+    }
+
+    .right-box-text{
+        margin: 0;
+        padding: 0;
+        height: 50%;
+        width: 100%;
+
+    }
+
+    .right-box-text h3{
+        font-size: 28px;
+       
+    }
+
+    .right-box-text p{
+        font-size: 20px;
+        padding-top: 8px;
+    }
+
+    .right-box-text a{
+        font-size: 16px;
+        
+    }
+
+    #guest-lecture.right-boxes{
+        background-color: white;
+    }
+
+/* start learning section */
+
+.startlearning{
+    background-color: white;
+    padding: 0;
+    margin: 32px 16px;
+}
+
+.startlearning h2{
+    font-size: 36px;
+    padding-bottom: 16px;
+}
+
+.boxes{
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: none;
+}
+
+.box{
+    background: lightgray;
+    margin: 0;
+    height: 15px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 16px;
+    
+    
+    
+}
+
+.box img {
+    display: none;
+}
+
+.box h3{
+    margin 0;
+    padding: 0;
+    text-align: center;
+    font-size: 28px;
+    
+    
+
+}
+
+.box p {
+    display: none;
+}
+
+
+/* Thesis exhibit  */
+
+.ThesisExhibit{
+    border: none;
+    padding-bottom: 24px;
+}
+
+.ThesisExhibit h2{
+    font-size: 32px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    
+}
+
+.halves{
+   margin: 0;
+}
+
+.leftThesis{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.leftThesis video{
+    padding: 0;
+    height: 100%;
+    margin: 0;
+
+}
+
+.leftThesis h3{
+    display: none;
+
+}
+
+.leftThesis p{
+    display: none;
+}
+
+.rightThesis{
+    display: none;
+}
+
+/* footer */
+
+footer{
+    padding: 16px;
+    align-items: flex-start;
+}
+
+footer .Terms {
+    display: none;
+}
+
+}
